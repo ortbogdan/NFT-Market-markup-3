@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    background-color: rgb(229, 229, 229);
+}
+body {
+    margin: 0;
+    font-family: 'Work+Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.22;
+
+    color: map-get($colors, 'text-color');
+    
+}
+img {
+    display: block;
+}
+button {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.section {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 375px;
+    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: map-get($colors, 'background');
+    // background: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%), url(nft-art-1230x690.jpg);
+    // background-blend-mode: normal, color-dodge;
+    // opacity: 0.55;
+}
