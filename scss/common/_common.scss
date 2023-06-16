@@ -20,10 +20,11 @@ img {
 }
 button {
     padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
+
+    cursor: pointer; 
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 .section {
     margin-left: auto;
@@ -39,4 +40,13 @@ button {
     // background: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%), url(nft-art-1230x690.jpg);
     // background-blend-mode: normal, color-dodge;
     // opacity: 0.55;
+}
+.title {
+    font-family: "Oxanium", sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+    font-size: 36px;
+    line-height: 1.25;
+    color: map-get($colors, 'secondary');
 }

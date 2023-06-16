@@ -1,0 +1,16 @@
+.hero {
+    &__title {
+        margin-bottom: 56px;
+        font-size: 42px;
+        line-height: 1.5;
+
+        &--accent {
+            color: map-get($colors, 'primary');
+        }
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}

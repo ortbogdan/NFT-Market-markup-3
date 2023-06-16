@@ -1,0 +1,23 @@
+.button {
+    width: 155px;
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.17;
+
+    border: none;
+
+    &--yellow {
+        background-color: map-get($colors, 'primary');
+        color: rgb(22, 9, 27);
+    }
+    &--brown {
+        background-color: rgb(89, 72, 70);
+        border: 1px solid map-get($colors, 'primary');
+        color: map-get($colors, 'secondary' );
+    }
+}
