@@ -1,0 +1,9 @@
+.hero-card {
+    width: 282px;
+    height: 378px;
+    &__img {
+        background: radial-gradient(86.63% 85.18% at 22.07% 22.69%, rgba(224, 48, 84, 0.93) 0%, rgba(224, 48, 84, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, url(../../images/hero/hero-card-example.png);
+        background-blend-mode: overlay, normal;
+        border-radius: 0px;
+    }
+}

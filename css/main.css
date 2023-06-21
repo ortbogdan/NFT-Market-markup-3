@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 0 16px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(28, 18, 31);
 }
 
 .title {
@@ -60,6 +59,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 32px;
   height: 32px;
   background-color: transparent;
+  border: none;
 }
 .menu__icon {
   width: 32px;
@@ -87,13 +87,40 @@ h1, h2, h3, h4, h5, h6, p {
   color: rgb(245, 251, 242);
 }
 
+.hero-card {
+  width: 282px;
+  height: 378px;
+}
+.hero-card__img {
+  background: radial-gradient(86.63% 85.18% at 22.07% 22.69%, rgba(224, 48, 84, 0.93) 0%, rgba(224, 48, 84, 0) 100%), url(../../images/hero/hero-card-example.png);
+  background-blend-mode: overlay, normal;
+  border-radius: 0px;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 .header__box {
+  position: absolute;
+  top: 34px;
+}
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 
+.hero__box {
+  padding-top: 140px;
+  background: url(../../images/hero/hero-bg.png);
+  background-repeat: no-repeat;
+  background-blend-mode: color-dodge;
+}
 .hero__title {
+  display: block;
   margin-bottom: 56px;
   font-size: 42px;
   line-height: 1.5;
@@ -105,4 +132,11 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+.hero__example {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  background: rgba(79, 70, 78, 0.35);
+  backdrop-filter: blur(15px);
 }/*# sourceMappingURL=main.css.map */

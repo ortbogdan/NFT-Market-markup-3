@@ -1,7 +1,19 @@
 .header {
+    
+    position: relative;
+    
+    
+    display: flex;
+    justify-content: center;
     &__box {
+        position: absolute;
+        top: 34px;
+    }
+    &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        background-color: transparent;
     }
 }

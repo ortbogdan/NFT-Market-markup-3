@@ -13,24 +13,45 @@
 <body>
     <header class="header">
         <div class="container header__box">
-            <a class="logo" href="#">
-              <img class="logo" src="./images/image.png" alt="NFTMarket logo">
-            </a>
-            <button class="menu" type="button">
-              <svg class="menu__icon">
-                <use href="./icons/sprite.svg#icon-menu"></use>
-              </svg>
-            </button>
+            <div class="header__wrapper">
+                <a class="logo" href="#">
+                    <img class="logo" src="./images/image.png" alt="NFTMarket logo">
+                </a>
+                <button class="menu" type="button">
+                    <svg class="menu__icon">
+                        <use href="./icons/sprite.svg#icon-menu"></use>
+                    </svg>
+                </button>
+            </div>
         </div>
     </header>
     <main>
         <section class="section hero">
-            <div class="container">
+            <div class="container hero__box">
                 <h1 class="title hero__title">Explore, Buy and Sell the <span class="hero__title--accent">Best NFTs!</span></h1>
                 <div class="hero__buttons">
                     <button type="button" class="button button--yellow">Explore</button>
                     <button type="button" class="button button--brown">Create</button>
-                </div>  
+                </div>
+                <div class="container hero__example">
+                    <article class="hero-card">
+                    <div class="hero-card__img">
+                        <div class="hero-card__img-info">
+                            <div>
+                                <p>Current bid</p>
+                                <p>0.99 ETH</p>
+                            </div>
+                            <div>
+                                <p>Ends in</p>
+                                <p>25 hrs</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div></div>
+                    </article>
+
+                </div>
             </div>
         </section>
     </main>

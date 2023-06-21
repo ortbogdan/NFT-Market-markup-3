@@ -1,5 +1,25 @@
 .hero {
+
+    
+
+    
+
+    &__box {
+    padding-top: 140px;
+
+    // background: linear-gradient(179.78deg, rgb(28, 18, 31) 9.98%, rgba(28, 18, 31, 0.21) 81.39%), url(../../images/hero/hero-bg.png);
+    // background-size: contain;
+    // background-blend-mode: normal, color-dodge;
+    // opacity: 0.55;
+    // overflow: hidden;
+    background: url(../../images/hero/hero-bg.png);
+    background-repeat: no-repeat;
+    background-blend-mode: color-dodge;
+    // opacity: 0.55;
+    }
+    
     &__title {
+        display: block;
         margin-bottom: 56px;
         font-size: 42px;
         line-height: 1.5;
@@ -12,5 +32,14 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+    }
+    &__example {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+
+        background: rgba(79, 70, 78, 0.35);
+        backdrop-filter: blur(15px);
+
     }
 }
